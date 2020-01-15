@@ -19,3 +19,7 @@ document.getElementById('second').innerHTML = ":" + secs;
 }
 
 setInterval(clock,100);
+
+function myFunction() {
+	document.body.style.backgroundColor= "black";
+}
